@@ -4,7 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { InfoIcon } from "lucide-react";
 import { FetchDataSteps } from "@/components/tutorial/fetch-data-steps";
 
-export default async function ProtectedPage() {
+export default async function LeadsPage() {
   const supabase = await createClient();
 
   const { data, error } = await supabase.auth.getUser();
@@ -29,7 +29,6 @@ export default async function ProtectedPage() {
       </div>
       <div>
         <h2 className="font-bold text-2xl mb-4">Next steps</h2>
-        <FetchDataSteps />
       </div>
     </div>
   );
