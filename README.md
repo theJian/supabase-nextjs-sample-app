@@ -12,7 +12,9 @@
    MODEL_NAME=deepseek-chat
    ```
 
-2. You can now run the Next.js local development server:
+2. Run [scripts](./scripts/) to setup DB.
+
+3. You can now run the Next.js local development server:
 
    ```bash
    npm run dev
@@ -21,4 +23,4 @@
    The starter kit should now be running on [localhost:3000](http://localhost:3000/).
 
 
-3. Check [ARCHITECTURE.md](./ARCHITECTURE.md)
+4. Check [ARCHITECTURE.md](./ARCHITECTURE.md)
