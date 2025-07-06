@@ -19,3 +19,6 @@
    ```
 
    The starter kit should now be running on [localhost:3000](http://localhost:3000/).
+
+
+3. Check [ARCHITECTURE.md](./ARCHITECTURE.md)
